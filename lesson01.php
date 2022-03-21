@@ -1,3 +1,5 @@
+<!-- 文字列、演算子 -->
+
 <?php
   // 'Hello, world!'をechoしてください
   echo 'Hello world';
