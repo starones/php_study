@@ -16,3 +16,21 @@ echo "<br>";
 echo rand(10,18);
 
 ?>
+
+
+
+<!-------- 関数の定義 -------->
+<?php
+// 関数を定義(function)して実行
+function hello() {
+  echo "Hello World";
+}
+hello();
+
+// （）の中で仮引数を定義（実行値は28になる）
+function printRectangleArea($height,$width) {
+  echo $height * $width;
+}
+printRectangleArea(4,7);
+
+?>
